@@ -1,0 +1,6 @@
+#App-Footer{
+    position: absolute;
+    bottom: 0;
+    height: 2.5rem;
+    width: 99.6%  /* Width can't be 100% because of boarder*/
+}

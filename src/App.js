@@ -1,12 +1,15 @@
 import React from 'react';
 import './App.css';
-
-import {AppHeader} from './appHeader';
+import AppBody from './appBody/AppBody';
+import AppFooter from './appFooter/AppFooter';
+import AppHeader from './appHeader/AppHeader';
 
 function App() {
   return (
     <div className="App">
-      <AppHeader/>
+      <AppHeader />
+      <AppBody />
+      <AppFooter />
     </div>
   );
 }
